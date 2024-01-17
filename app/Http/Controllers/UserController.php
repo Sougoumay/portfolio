@@ -25,7 +25,7 @@ class UserController extends Controller
         $user = User::query()->firstOrFail();
         $user->update($request->validated());
 
-        return redirect()->route("admin.hamid.user.show");
+        return redirect()->route("admin.profile.show");
     }
 
 }

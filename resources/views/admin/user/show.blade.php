@@ -49,7 +49,7 @@
                                         <div class="col-9">{{$user->mobility}}</div>
                                     </div>
                                     <div class="row mt-5 justify-content-center">
-                                        <a href="{{route("admin.hamid.user.edit")}}" class="btn btn-primary" >Modifier</a>
+                                        <a href="{{route("admin.profile.edit")}}" class="btn btn-primary" >Modifier</a>
                                     </div>
                                 </div>
                             </div>

@@ -14,7 +14,7 @@
                         @endif
                 </div>
                 <h4 class="header-title">{{$user->name}}</h4>
-                <form class="needs-validation" method="post" action="{{route("admin.hamid.user.update")}}" novalidate="">
+                <form class="needs-validation" method="post" action="{{route("admin.profile.update")}}" novalidate="">
                     @csrf
                     <div class="form-row">
                         <div class="col-md-4 mb-3">

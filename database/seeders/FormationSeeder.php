@@ -3,8 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Formation;
-use Carbon\Carbon;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class FormationSeeder extends Seeder
@@ -37,7 +35,8 @@ class FormationSeeder extends Seeder
             "institution" => "Collegium Sciences et Techniques | Université d'Orléans",
             "city" => "Orléans",
             "country" => "France",
-            "start_date" => "2023"
+            "start_date" => "2023",
+            "end_date" => "2025",
         ]);
     }
 }
